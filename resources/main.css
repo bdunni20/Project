@@ -1,0 +1,46 @@
+
+/*header nav*/
+
+/*.header h1 {
+  min-height: 50px;
+  font-family: garamond;
+  font-size: 24px;
+  border: 1px solid black;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}*/
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100px;
+  margin-top:;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 4px solid rgb(50, 50, 50);
+  border-left: 2px solid rgb(50, 50, 50);
+  border-right: 2px solid rgb(50, 50, 50);
+  border-top: 3px solid rgb(0, 255, 0);
+  background-color: black;
+}
+.header span{
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 18px;
+  padding: px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+a {
+  color: rgb(50, 50, 50);
+}
+
+a:hover{
+  color: rgb(0, 255, 0);
+}
